@@ -1,0 +1,109 @@
+.html {
+    font-family: 'Tangerine', cursive;
+}
+
+.nav-bar-custom {
+    background-color: rgb(8, 93, 133);
+    color: white;
+}
+
+.cover-image {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.cover-image-img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.cover-image-p {
+    position: absolute;
+    font-size: 3.2vmax;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 60px rgb(226, 226, 226);
+}
+
+.social-links-div {
+    display: block;
+    position: absolute;
+    width: 100%;
+}
+
+.social-links {
+    display: inline-block;
+    font-size: 3.5vmax;
+    margin: 3vw;
+    color: white;
+    text-decoration: none;
+    font-style: normal;
+    text-align: center;
+    width: auto;
+    padding-left: 0;
+    margin-top: 13vw;
+    text-shadow: 0 0 40px rgb(143, 143, 143);
+}
+
+a.social-links:hover {
+    color:rgb(107, 151, 137);
+}
+
+.about {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    text-align: center;
+}
+
+.features {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    text-align: center;
+    background-color: rgb(175, 233, 248);
+}
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    z-index: 1;
+    overflow-x: hidden;
+    background-color: rgb(175, 233, 248);
+}
+
+.our-features {
+    left: 0;
+}
+
+.features-img {
+    right: 0;
+}
+
+.split-img {
+    top: 0;
+    padding: 30px;
+}
+
+.features-head {
+    padding-top: 10vh;
+    padding-left: 10vw;
+    padding-right: vw;
+}
+
+.fonty {
+    font-family: 'Abril Fatface', cursive;
+}
+
+.datingdoname {
+    padding-left: 10px;
+    font-family: 'Tangerine', cursive;
+    font-size: 25px;
+}
+
+.h1 {
+    font-family: 'Tangerine', cursive;
+}
