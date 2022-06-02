@@ -63,35 +63,6 @@ a.social-links:hover {
     padding-left: 5vw;
     padding-right: 5vw;
     text-align: center;
-    background-color: rgb(175, 233, 248);
-}
-
-.split {
-    height: 100%;
-    width: 50%;
-    position: absolute;
-    z-index: 1;
-    overflow-x: hidden;
-    background-color: rgb(175, 233, 248);
-}
-
-.our-features {
-    left: 0;
-}
-
-.features-img {
-    right: 0;
-}
-
-.split-img {
-    top: 0;
-    padding: 30px;
-}
-
-.features-head {
-    padding-top: 10vh;
-    padding-left: 10vw;
-    padding-right: vw;
 }
 
 .fonty {
@@ -106,4 +77,52 @@ a.social-links:hover {
 
 .h1 {
     font-family: 'Tangerine', cursive;
+}
+
+.h1script {
+    font-family: 'Beau Rivage', cursive;
+    font-weight: bold;
+}
+
+.features-title {
+    margin-top: 40px;
+}
+
+.h2serif {
+    font-family: 'Tiro Kannada', serif;
+    font-size: 3.7vmin;
+}
+
+.featuresleft {
+    background-color: rgb(175, 233, 248);
+    padding-bottom: 30px;
+    padding-top: 5px;
+}
+
+.featuresright {
+    background-image: url(styles-images/POGIMAGE.jpg);
+    background-size: cover;
+    min-height: fit-content;
+    padding-bottom: 15px;
+    background-repeat: no-repeat;
+}
+
+.pricing {
+    padding: 30px 0;
+    background-color: rgb(218, 241, 247);
+}
+
+.footer {
+    padding-top: 15px;
+    margin: 0;
+}
+
+.h3serif {
+    font-family: 'EB Garamond', serif;
+}
+
+.card {
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
 }
