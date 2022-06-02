@@ -48,7 +48,7 @@
 }
 
 a.social-links:hover {
-    color:rgb(107, 151, 137);
+    color: rgb(107, 151, 137);
 }
 
 .about {
@@ -112,6 +112,10 @@ a.social-links:hover {
     background-color: rgb(218, 241, 247);
 }
 
+.pricingcontian {
+    margin: 0 2.6vmax;
+}
+
 .footer {
     padding-top: 15px;
     margin: 0;
@@ -122,7 +126,8 @@ a.social-links:hover {
 }
 
 .card {
-        margin: 0 auto; /* Added */
-        float: none; /* Added */
-        margin-bottom: 10px; /* Added */
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+    box-shadow: 0 0 100px rgb(107, 151, 137);
 }
