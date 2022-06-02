@@ -169,7 +169,7 @@
 
                         // Full available details
                         console.log('Capture result', orderData, JSON.stringify(orderData, null,
-                        2));
+                            2));
 
                         // Show a success message within this page, e.g.
                         const element = document.getElementById('paypal-button-container');
@@ -188,5 +188,26 @@
         initPayPalButton();
     </script>
 </body>
+<div class="footer">
+    <p class="text-center">
+        Miranda Symes, Reva Deshmukh, Miredeth Ng and Dundee Zhang | 2020 - 2022 Datingdo © | BBI2O1
+    </p>
+    <p class="text-center">
+        <a href="sitemap" style="color: rgb(76, 79, 100); text-decoration: none;">Sitemap</a> | <a href="contact"
+            style="color: rgb(76, 79, 100); text-decoration: none;">Contact Us</a> | <a href="http://rr.dzhng.com"
+            target="_blank" style="color: rgb(76, 79, 100); text-decoration: none;">Our Values</a>
+    </p>
+    <!-- PayPal Logo -->
+    <table border="0" cellpadding="10" cellspacing="0" align="center">
+        <tbody>
+            <tr>
+                <td align="center"><a href="https://www.paypal.com/be/webapps/mpp/home" title="PayPal How It Works"
+                        onclick="javascript :window.open('/webapps/mpp/home','WIPaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=1060 , height=700'); return false;"><img
+                            src="https://www.paypalobjects.com/webstatic/mktg/logo-center/logo_paypal_paiements_securises_fr.jpg"
+                            border="0" alt="PayPal Acceptance Mark " /></a></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
 </html>

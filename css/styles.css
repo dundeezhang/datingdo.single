@@ -47,6 +47,25 @@
     text-shadow: 0 0 40px rgb(143, 143, 143);
 }
 
+.social-links-div-contact {
+    display: block;
+    width: 100%;
+}
+
+.social-links-contact {
+    display: inline-block;
+    font-size: 3.5vmax;
+    margin: 3vw;
+    color: white;
+    text-decoration: none;
+    font-style: normal;
+    text-align: center;
+    width: auto;
+    padding-left: 0;
+    margin-top: 13vw;
+    text-shadow: 0 0 40px rgb(143, 143, 143);
+}
+
 a.social-links:hover {
     color: rgb(107, 151, 137);
 }
