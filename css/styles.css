@@ -166,14 +166,175 @@ a.social-links:hover {
     color: rgb(6, 154, 6);
 }
 
+.catfish-btn,
+.catfish-btn:hover,
+.catfish-btn:active,
+.catfish-btn:visited {
+    background-color: rgb(6, 154, 6) !important;
+    stroke: none !important;
+}
+
 .basic-title {
     color: rgb(0, 93, 208);
+}
+
+.basic-btn,
+.basic-btn:hover,
+.basic-btn:active,
+.basic-btn:visited {
+    background-color: rgb(0, 93, 208) !important;
+    stroke: none !important;
 }
 
 .advanced-title {
     color: rgb(210, 133, 0);
 }
 
+.advanced-btn,
+.advanced-btn:hover,
+.advanced-btn:active,
+.advanced-btn:visited {
+    background-color: rgb(210, 133, 0) !important;
+    stroke: none !important;
+}
+
 .alpha-title {
     color: rgb(201, 0, 107);
+}
+
+.alpha-btn,
+.alpha-btn:hover,
+.alpha-btn:active,
+.alpha-btn:visited {
+    background-color: rgb(201, 0, 107) !important;
+    stroke: none !important;
+}
+
+.call-title {
+    color: rgb(6, 75, 154);
+}
+
+.call-btn,
+.call-btn:hover,
+.call-btn:active,
+.call-btn:visited {
+    background-color: rgb(6, 75, 154) !important;
+    stroke: none !important;
+}
+
+.fishing-title {
+    color: rgb(6, 154, 6);
+}
+
+.fishing-btn,
+.fishing-btn:hover,
+.fishing-btn:active,
+.fishing-btn:visited {
+    background-color: rgb(6, 154, 6) !important;
+    stroke: none !important;
+}
+
+.work-title {
+    color: rgb(123, 18, 129);
+}
+
+.work-btn,
+.work-btn:hover,
+.work-btn:active,
+.work-btn:visited {
+    background-color: rgb(123, 18, 129) !important;
+    stroke: none !important;
+}
+
+.btn-outline-primary {
+    color: #7cc;
+    background-color: transparent;
+    background-image: none;
+    border-color: #7cc
+}
+
+.dash-h1 {
+    padding-top: 40px;
+}
+
+.dash-p {
+    margin: 0 0 40px 0;
+}
+
+.profile-cards {
+    margin-bottom: 50px;
+}
+
+/* The side navigation menu */
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+/* Sidebar links */
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+
+/* Active/current link */
+.sidebar a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+}
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .sidebar a {
+        float: left;
+    }
+
+    div.content {
+        margin-left: 0;
+    }
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
+}
+
+.card-profile {
+    margin: 0 auto;
+    float: none;
+    box-shadow: none !important;
+}
+
+.profile-image {
+    border-radius: 100%;
+    margin: 25px;
 }
