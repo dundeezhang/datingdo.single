@@ -160,3 +160,19 @@ a.social-links:hover {
 .feedbackcontain {
     margin: 0 3vmax;
 }
+
+.catfish-title {
+    color: rgb(6, 154, 6);
+}
+
+.basic-title {
+    color: rgb(0, 93, 208);
+}
+
+.advanced-title {
+    color: rgb(210, 133, 0);
+}
+
+.alpha-title {
+    color: rgb(201, 0, 107);
+}
